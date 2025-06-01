@@ -1,0 +1,10 @@
+name: final
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11.5
+  - pandas=2.2.3
+  - python-dotenv=1.0.1
+  - pip
+  - pip:
+      - google-api-python-client==2.125.0
